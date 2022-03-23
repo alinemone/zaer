@@ -1,0 +1,84 @@
+{
+  "_from": "@majidh1/jalalidatepicker",
+  "_id": "@majidh1/jalalidatepicker@0.2.9",
+  "_inBundle": false,
+  "_integrity": "sha512-ALtYXSwEzXFzt3hGJIP6hZVa8LjblhOvdiVXBTFgZlGidJrv7DwqLtLEvt7QIKgITHFgzgKrCDvCBYtIqAC4Pg==",
+  "_location": "/@majidh1/jalalidatepicker",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@majidh1/jalalidatepicker",
+    "name": "@majidh1/jalalidatepicker",
+    "escapedName": "@majidh1%2fjalalidatepicker",
+    "scope": "@majidh1",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@majidh1/jalalidatepicker/-/jalalidatepicker-0.2.9.tgz",
+  "_shasum": "17f4453be3fd3a6243cc525d1282f706aeaab1eb",
+  "_spec": "@majidh1/jalalidatepicker",
+  "_where": "C:\\xampp\\htdocs\\saeed",
+  "author": {
+    "name": "Majid Hooshiyar"
+  },
+  "bugs": {
+    "url": "https://github.com/majidh1/JalaliDatePicker/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A lightweight and simple jalali datepicker.",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.7",
+    "css-minimizer-webpack-plugin": "^3.0.2",
+    "eslint": "^7.30.0",
+    "imports-loader": "^3.0.0",
+    "mini-css-extract-plugin": "^2.1.0",
+    "postcss": "^8.3.5",
+    "sass": "^1.35.2",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.1.0",
+    "terser-webpack-plugin": "^5.1.4",
+    "webpack": "^5.22.0",
+    "webpack-cli": "^4.5.0"
+  },
+  "homepage": "https://github.com/majidh1/JalaliDatePicker#readme",
+  "keywords": [
+    "date",
+    "picker",
+    "datepicker",
+    "jalali",
+    "persian",
+    "jalalidatepicker",
+    "calendar",
+    "persiandatepicker",
+    "farsi",
+    "javascript",
+    "front-end",
+    "web"
+  ],
+  "license": "MIT",
+  "main": "dist/jalaliDatepicker.min.js",
+  "name": "@majidh1/jalalidatepicker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/majidh1/JalaliDatePicker.git"
+  },
+  "scripts": {
+    "debug": "npm run lint && webpack --mode=development",
+    "lint": "eslint . --ext .js",
+    "publish": "npm run debug && npm run release && npm publish",
+    "release": "npm run lint && webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --mode=development --watch"
+  },
+  "version": "0.2.9"
+}
